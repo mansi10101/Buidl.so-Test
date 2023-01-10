@@ -1,0 +1,82 @@
+.text1{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 350%;
+}
+.text2{
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 550%;
+}
+.text3{
+    
+    font-family: 'arial';
+    font-weight: 200;
+    font-size: 180%;
+}
+.faq-content{
+    font-size: 180%;
+}
+.faq-title{
+    font-weight: 400;
+    font-size: 200%;
+}
+.faq-que{
+    margin-top: 3%;
+}
+.text4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-family: 'arial';
+    font-size: 180%;
+}
+.box{
+    padding: 4%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.applybtn{
+    padding: 12px 80px;
+}
+.gridbox{
+    display: flex;
+    height: auto;
+    width:100%;
+}
+.flexbox{
+    display: grid; 
+    height: auto;
+    flex:50%;
+    justify-content: center;
+    padding: 6%;
+}
+.f-text1{
+    font-size: 2.7rem;
+    text-align: center;
+}
+.f-text2{
+    font-size: 500%;
+    text-align: center;
+}
+.divide{
+    border: 1px solid black;
+}
+.cotext{
+    font-weight: bolder;
+    font-size: 450%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.imgtitle{
+    font-size: 200%;
+}
+.imgtext{
+    text-align: center;
+    font-size: 150%;
+}
+.footerbtn{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -294,8 +294,9 @@ extlink i {
   padding-left: 0.2em;
 }
 .layout--twocol-section {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 .layout--twocol-section > .layout__region {
   flex: 0 1 100%;
