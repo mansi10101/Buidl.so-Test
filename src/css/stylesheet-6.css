@@ -1,82 +1,324 @@
-.text1{
+.text1 {
     font-family: "Gilroy";
     font-style: normal;
     font-weight: lighter;
     font-size: 350%;
 }
-.text2{
+
+.text2 {
     font-family: 'arial';
     font-style: normal;
     font-weight: 400;
     font-size: 550%;
 }
-.text3{
-    
+
+.text3 {
+
     font-family: 'arial';
     font-weight: 200;
     font-size: 180%;
 }
-.faq-content{
-    font-size: 180%;
-}
-.faq-title{
-    font-weight: 400;
-    font-size: 200%;
-}
-.faq-que{
-    margin-top: 3%;
-}
-.text4{
+
+.text4 {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     font-family: 'arial';
     font-size: 180%;
 }
-.box{
+
+.box {
     padding: 4%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.applybtn{
+
+.applybtn {
     padding: 12px 80px;
 }
-.gridbox{
+
+.gridbox {
     display: flex;
-    height: auto;
-    width:100%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
 }
-.flexbox{
-    display: grid; 
+
+.flexbox {
+    display: grid;
     height: auto;
-    flex:50%;
+    flex: 50%;
     justify-content: center;
     padding: 6%;
 }
-.f-text1{
+
+.f-text1 {
     font-size: 2.7rem;
     text-align: center;
 }
-.f-text2{
+
+.f-text2 {
     font-size: 500%;
     text-align: center;
 }
-.divide{
+
+.divide {
     border: 1px solid black;
 }
-.cotext{
+
+.cotext {
     font-weight: bolder;
     font-size: 450%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.imgtitle{
+
+.imgtitle {
     font-size: 200%;
 }
-.imgtext{
+
+.imgtext {
     text-align: center;
     font-size: 150%;
 }
-.footerbtn{
+
+.footerbtn {
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 550px) {
+    .box {
+        padding: 2%;
+        width: auto;
+    }
+
+    .text1 {
+        font-size: 250%;
+    }
+
+    .text2 {
+        font-size: 450%;
+    }
+
+    .text3,
+    .text4 {
+        font-size: 100%;
+    }
+
+    .applybtn {
+        padding: 7px 30px;
+    }
+
+    .block-title {
+        font-size: 4rem;
+        font-weight: 550;
+    }
+
+    .f-text1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .f-text2 {
+        font-size: 250%;
+        text-align: center;
+    }
+
+    .imgcss {
+        width: min-content;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    .box {
+        padding: 2%;
+        width: auto;
+    }
+
+    .text1 {
+        font-size: 180%;
+    }
+
+    .text2 {
+        font-size: 300%;
+    }
+
+    .text3,
+    .text4 {
+        font-size: 90%;
+    }
+
+    .applybtn {
+        padding: 7px 10px;
+    }
+
+    .block-title {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .f-text1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .f-text2 {
+        font-size: 200%;
+        text-align: center;
+    }
+
+    .faqtitle {
+        font-size: 2rem;
+    }
+
+    .imgcss {
+        width: min-content;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .imgsizing {
+        height: 100%;
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .imgsizing {
+        height: 100%;
+        width: 5%;
+    }
+
+    .f-text1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .f-text2 {
+        font-size: 300%;
+        text-align: center;
+    }
+
+    .box {
+        padding: 5%;
+        width: auto;
+    }
+
+    .text1 {
+        font-size: 200%;
+    }
+
+    .text2 {
+        font-size: 350%;
+    }
+
+    .text3,
+    .text4 {
+        font-size: 120%;
+    }
+
+    .applybtn {
+        padding: 10px 60px;
+    }
+
+    .faqtitle {
+        font-size: 3rem;
+    }
+
+    .faqtext {
+        font-size: 2rem;
+    }
+
+    .imgsizing {
+        height: 100%;
+        width: 60%;
+
+    }
+
+    .imagesizing {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .imgcss {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .imgtext {
+        font-size: 2.5rem;
+    }
+}
+
+.faqtitle {
+    font-size: 3rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .box {
+        padding: 2%;
+        width: auto;
+    }
+
+    .text1 {
+        font-size: 250%;
+    }
+
+    .text2 {
+        font-size: 450%;
+    }
+
+    .text3,
+    .text4 {
+        font-size: 140%;
+    }
+
+    .applybtn {
+        padding: 7px 30px;
+    }
+
+    .block-title {
+        font-size: 4rem;
+        font-weight: 550;
+    }
+
+    .f-text1 {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .f-text2 {
+        font-size: 400%;
+        text-align: center;
+    }
+
+    .imagesizing {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .imgsizing {
+        height: 100%;
+        width: 90%;
+
+    }
+
+    .imgcss {
+        width: 100%;
+        height: auto;
+    }
+
+    .imgtext {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
 }
